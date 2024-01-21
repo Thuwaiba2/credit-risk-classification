@@ -25,23 +25,23 @@ Evaluated the model's performance using accuracy, confusion matrix, and classifi
 
 #### Label 0 (Healthy Loan):
 - **Precision (pre):** 1.00
-  - Identifies all predicted healthy loans correctly.
+  Identifies all predicted healthy loans correctly.
 - **Recall (rec):** 0.99
-  - Correctly identifies 99% of actual healthy loans.
+  Correctly identifies 99% of actual healthy loans.
 - **Specificity (spe):** 0.94
-  - Correctly identifies 94% of actual non-healthy loans.
+  Correctly identifies 94% of actual non-healthy loans.
 - **F1 Score (f1):** 1.00
-  - High harmonic mean of precision and recall.
+  High harmonic mean of precision and recall.
 
 #### Label 1 (High-Risk Loan):
 - **Precision (pre):** 0.84
-  - 84% of predicted high-risk loans are correct.
+  84% of predicted high-risk loans are correct.
 - **Recall (rec):** 0.94
-  - Correctly identifies 94% of actual high-risk loans.
+  Correctly identifies 94% of actual high-risk loans.
 - **Specificity (spe):** 0.99
-  - Correctly identifies 99% of actual non-high-risk loans.
+  Correctly identifies 99% of actual non-high-risk loans.
 - **F1 Score (f1):** 0.89
-  - Harmonic mean of precision and recall for high-risk loans.
+  Harmonic mean of precision and recall for high-risk loans.
 
 ### Overall Model Performance:
 - **Accuracy:** 99%
@@ -63,36 +63,36 @@ Evaluated the model's performance using accuracy, confusion matrix, and classifi
 #### Label `0` (Healthy Loan):
 
 - **Precision:** 1.00
-  - Identifies all predicted healthy loans correctly.
+  Identifies all predicted healthy loans correctly.
 
 - **Recall:** 0.99
-  - Correctly identifies 99% of actual healthy loans.
+  Correctly identifies 99% of actual healthy loans.
 
 - **F1-Score:** 1.00
-  - High harmonic mean of precision and recall.
+  High harmonic mean of precision and recall.
 
 #### Label `1` (Non-Healthy Loan):
 
 - **Precision:** 0.84
-  - 84% of predicted non-healthy loans are correct.
+  84% of predicted non-healthy loans are correct.
 
 - **Recall:** 0.99
-  - Correctly identifies 99% of actual non-healthy loans.
+  Correctly identifies 99% of actual non-healthy loans.
 
 - **F1-Score:** 0.91
-  - Harmonic mean of precision and recall for non-healthy loans.
+  Harmonic mean of precision and recall for non-healthy loans.
 
 ### Overall Model Performance:
 
 - **Accuracy:** 99%
 - **Macro Average Metrics:**
-  - Precision: 0.92
-  - Recall: 0.99
-  - F1-Score: 0.95
+  Precision: 0.92
+  Recall: 0.99
+  F1-Score: 0.95
 - **Weighted Average Metrics:**
- - Precision: 0.99
-  - Recall: 0.99
-  - F1-Score: 0.99
+ Precision: 0.99
+ Recall: 0.99
+ F1-Score: 0.99
 #### Confusion Matrix:
 
 |               | Predicted Healthy Loan (0) | Predicted Non-Healthy Loan (1) |
